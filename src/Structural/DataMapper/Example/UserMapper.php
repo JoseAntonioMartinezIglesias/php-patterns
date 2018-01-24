@@ -10,7 +10,7 @@ class UserMapper {
     /**
      * @param StorageAdapter $storage
      */
-    public function __construct($user=null) {
+    public function __construct($user = null) {
         $this->adapter = $storage;
     }
 
@@ -28,7 +28,6 @@ class UserMapper {
         }
 
         return $this->mapRowToUser($result);
-        
     }
 
     public function save() {

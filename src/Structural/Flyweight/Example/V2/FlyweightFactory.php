@@ -19,6 +19,6 @@ class FlyweightFactory implements Countable {
 
     public function count(): int {
         return count($this->pool);
-    } 
+    }
 
 }

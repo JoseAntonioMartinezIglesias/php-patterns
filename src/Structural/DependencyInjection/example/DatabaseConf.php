@@ -2,7 +2,7 @@
 
 namespace Structural\DependencyInjection\example;
 
-class DatabaseConfiguration {
+class DatabaseConfiguration implements IDatabaseConf {
 
     private $host;
     private $port;

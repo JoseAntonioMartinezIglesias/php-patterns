@@ -1,8 +1,23 @@
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+class Book {
+
+    private $author;
+    private $title;
+
+    function __construct($author_in, $title_in) {
+        $this->author = $author_in;
+        $this->title = $title_in;
+    }
+
+    function getAuthor() {
+        return $this->author;
+    }
+
+    function getTitle() {
+        return $this->title;
+    }
+
+}
+
 

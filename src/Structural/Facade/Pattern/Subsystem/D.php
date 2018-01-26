@@ -1,13 +1,13 @@
 <?php
 
-class A {
+class D {
 
     public function m1() {
-        print "m1 de A";
+        print "m1 de D";
     }
 
     public function m2() {
-        print "m2 de A";
+        print "m2 de D";
     }
 
 }

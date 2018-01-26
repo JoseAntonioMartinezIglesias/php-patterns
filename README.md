@@ -1,5 +1,7 @@
-# Patrones
-Ejemplos de patrones de diseño orientado a objetos escritos con Php
+# php patterns
+# Status - dev
+
+----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
 How run test in linux ...
 In command line write for example :
@@ -12,4 +14,9 @@ phpunit --testdox src/autoload.php test/WebPattern/FrontController
 
 
 ----------------------------------------------------------------------------
-Integrar PhpUnit, PhpDoc, Vagrant o Docker, Jekins etc ....
+Pending task :
+write more php examples
+write PhpUnit test,
+PhpDoc ?, 
+Build with Vagrant or Docker, Jekins etc ....
+ 

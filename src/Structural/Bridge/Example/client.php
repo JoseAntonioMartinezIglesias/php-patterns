@@ -15,6 +15,5 @@ echo $serviceA->get();
 $serviceB = new HelloWorldService(new PlainTextFormatter());
 echo $serviceB->get();
 
-// now change the implementation and use the HtmlFormatter instead
 $serviceB->setImplementation(new HtmlFormatter());
 echo $serviceB->get();

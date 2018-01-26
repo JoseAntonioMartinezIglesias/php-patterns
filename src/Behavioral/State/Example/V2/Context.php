@@ -1,7 +1,5 @@
 <?php
 
-include_once '../../../autoload.php';
-
  class Context {
      
     /**
@@ -9,8 +7,8 @@ include_once '../../../autoload.php';
      */ 
     private $state;
 
-    public function context() {
-        $this->setState(new StateA());
+    public function context(State $state) {
+        $this->setState($state);
     }
 
     protected function setState(State $state) {

@@ -1,6 +1,6 @@
 <?php
 
-use State;
+include_once 'State.php';
 
 class StateA extends State {
 

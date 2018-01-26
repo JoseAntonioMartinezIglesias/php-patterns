@@ -30,4 +30,7 @@ $descuento->descuento(new CalcularDescuentoA(60, 10));
 $descuento->descuento(new CalcularDescuentoB(60, 10));
 $descuento->descuento(new CalcularDescuentoC(60, 10));
 
+$calculadora = new Calculadora(new CalcularDescuentoA(600, 10));
+print "Se ha descontado " . $calculadora->execute() . "\n";
+
 

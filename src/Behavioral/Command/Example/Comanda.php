@@ -1,5 +1,7 @@
 <?php
 
+namespace Behavioral\Command\Example;
+
 abstract class Comanda {
 
     protected $cocinero;
@@ -8,6 +10,6 @@ abstract class Comanda {
         $this->cocinero = $cocinero;
     }
 
-    public abstract function execute();
+    public abstract function execute() : void;
     
 }

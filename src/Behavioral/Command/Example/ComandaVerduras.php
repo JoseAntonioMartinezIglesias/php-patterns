@@ -1,6 +1,6 @@
 <?php
 
-include_once 'Comanda.php';
+namespace Behavioral\Command\Example;
 
 class ComandaVerduras extends Comanda {
 
@@ -8,14 +8,9 @@ class ComandaVerduras extends Comanda {
 
     public function __construct(Cocinero $cocinero) {
         parent::__construct($cocinero);
-        $this->cocinero->setReceta(array(
-            'Añadir agua',
-            'Poner verduras',
-            'Cocinar 20 minutos'
-        ));
     }
 
-    public function execute() { //:void
+    public function execute()  :void { 
         $this->cocinero->cocinarVerduras();
     }
 

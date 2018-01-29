@@ -3,5 +3,5 @@
 namespace Creational\AbstractFactory\AbstractFactory;
 
 abstract class AbstractFactory {
-    public function create(string $text){} 
+    abstract public function create(string $text);
 }

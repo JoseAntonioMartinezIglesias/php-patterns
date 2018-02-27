@@ -1,10 +1,11 @@
 <?php
 
-//TODO
+include_once '../../../autoload.php';
 
 include_once 'StorageAdapter.php';
 include_once 'UserMapper.php';
 include_once 'User.php';
+
 
 
 $user = new User('admin', 'admin@domain.es');
